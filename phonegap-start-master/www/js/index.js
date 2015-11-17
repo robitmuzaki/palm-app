@@ -17,7 +17,8 @@
  * under the License.
  */
  
-var rootUrl = 'http://palm.dicoba.net/palm.drmimo.info/index.php/';
+var rootUrl = 'http://palm.drmimo.info/';
+var rootUrl2 = 'http://palm.dicoba.net/palm.drmimo.info/index.php/';
 	
 var app = {
     // Application Constructor
@@ -656,7 +657,7 @@ $(document)
 	})
 	$('#register-submit').off().click(function()
 	{
-		var origin = rootUrl + 'api/example/user';
+		var origin = rootUrl2 + 'api/example/user';
 		var name = $("#name").val();
 		var phone = $("#phone").val();
 		var dataString = 'name='+name+'&phone='+phone;
